@@ -41,13 +41,7 @@ text-shadow: 0 0 10px #00F0FF, 0 0 20px #00F0FF, 0 0 30px #00F0FF;
 .sponsor-card:hover {
 box-shadow: 0 0 15px #FF00FF, 0 0 30px #00FFFF;
 }
-.venue-section {
-background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
-                url('venue.jpg') center/cover no-repeat;
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-}
+
 .sponsors-section {
 background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
                 url('sponsor1.jpg') center/cover no-repeat;
@@ -153,6 +147,13 @@ orbitron: ['Orbitron', 'sans-serif']
 </header>
   
 <div class="venue-section min-h-screen font-['Inter']">
+  <style>.venue-section {
+background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
+                url('venue.jpg') center/cover no-repeat;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}</style>
 <div class="bg-overlay min-h-screen">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-16">
 <section id="venue" class="mb-24">
